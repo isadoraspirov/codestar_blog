@@ -13,7 +13,7 @@ Django==5.2.14
 django-allauth==0.57.2
 django-crispy-forms==2.6
 django-summernote==0.8.20.0
-gunicorn==20.1.0
+gunicorn>=21.2.0
 idna==3.13
 oauthlib==3.3.1
 psycopg2-binary==2.9.12
@@ -23,7 +23,8 @@ python3-openid==3.2.0
 requests==2.33.1
 requests-oauthlib==2.0.0
 ruff==0.15.12
-setuptools==82.0.1
+setuptools==78.1.0
+wheel
 six==1.17.0
 sqlparse==0.5.5
 urllib3==1.26.20
